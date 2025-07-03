@@ -16,14 +16,14 @@ This project is a lightweight, custom firewall that hooks directly into the Linu
 
 ## ✅ Features
 
-- **IP Blocking:** Dynamically block packets from malicious or unwanted IP addresses.
+- **IP Blocking:** Block packets from malicious or unwanted IP addresses.
 - **Port Blocking:** Block traffic to specific destination ports.
 - **DNS Filtering:** Drop DNS queries for blacklisted domains.
 - **ICMP Packet Handling:** Drop ICMP packets from blocked IPs.
 - **Port Scan Detection:** Detects when an IP scans more than *N* ports in a short window (default: 5 ports in 10 sec).
-- **Auto-Banning:** Automatically bans suspicious IPs for a configurable duration.
-- **Threaded Detection Sweep:** Runs detection logic in a separate thread while filtering continues.
-- **JSON Logging:** Logs all blocked events, scans, and DNS requests in a structured, SIEM-ready format.
+- **Auto-Banning:** Automatically bans suspicious IPs for a configurable duration (default: 10 minutes ban if IP is detected to detected by Port Scan Detection function).
+- **Threaded Detection:** Runs detection logic in a separate thread while filtering continues.
+- **JSON Logging:** Logs all blocked events, scans, and DNS requests in a structured, easy to understand format.
 
 ---
 
