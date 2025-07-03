@@ -61,3 +61,6 @@ sudo iptables -I INPUT -j NFQUEUE --queue-num 1
 
 # Run the firewall
 sudo python3 firewall.py
+
+# To Reset iptables after use
+sudo iptables -F
