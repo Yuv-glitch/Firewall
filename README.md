@@ -65,7 +65,7 @@ sudo python3 firewall.py
 # To Reset iptables after use
 sudo iptables -F
 ```
-## Final Words
+## ⭐ Final Words
 - This project was created as more of a learning project -- PRs, ideas, improvements are welcome!
 - Contact me on [Linkedin](https://www.linkedin.com/in/yuvraj-dudhal-0288a3248/)
 - Made with :heart: in Python
