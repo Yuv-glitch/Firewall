@@ -9,7 +9,7 @@ A simple but powerful network security project built entirely in Python — demo
 This project is a lightweight, custom firewall that hooks directly into the Linux networking stack using **iptables** and **NetfilterQueue**. It inspects packets live, applies rules for blocking, detects port scans, and logs all actions to structured **JSON** files — similar to how a real IDS/IPS or SOC tool might work.
 
 **Use Case:**  
-- Personal learning project for aspiring SOC Analysts or Network Engineers  
+- Personal learning project. 
 - Demonstrates practical understanding of packet inspection, stateful detection, and basic threat response
 
 ---
